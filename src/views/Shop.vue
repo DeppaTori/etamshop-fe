@@ -1,8 +1,10 @@
 <template>
-  <div class="home">
+  <div class="shop">
      <HeaderMenu />
-    <img alt="Etam Shop Doggo" src="../assets/doggo.jpg" class="doggo">
-    <HelloWorld msg="Welcome to Etam Shop Project"/>
+  <div class="margin50">
+
+     <HelloWorld msg="Shop"/>
+    </div>
   </div>
 </template>
 
@@ -12,7 +14,7 @@ import HelloWorld from '@/components/HelloWorld.vue'
 import HeaderMenu from '@/components/header/HeaderMenu.vue';
 
 export default {
-  name: 'home',
+  name: 'shop',
   components: {
     HelloWorld,
     HeaderMenu
@@ -22,8 +24,8 @@ export default {
 
 <style>
 
-img.doggo{
-  margin-top:50px;
+.margin50{
+  margin-top:95px;
 }
 
 </style>

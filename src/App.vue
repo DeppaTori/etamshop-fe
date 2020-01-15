@@ -1,7 +1,8 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+    
+   
+    <router-view />
   </div>
 </template>
 
@@ -9,9 +10,10 @@
 import { Component, Vue } from 'vue-property-decorator';
 import HelloWorld from './components/HelloWorld.vue';
 
+
 @Component({
   components: {
-    HelloWorld,
+    HelloWorld
   },
 })
 export default class App extends Vue {}
@@ -25,5 +27,8 @@ export default class App extends Vue {}
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+img.doggo{
+  margin-top:50px;
 }
 </style>
